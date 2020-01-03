@@ -1,0 +1,21 @@
+.Header_Principal
+    padding-top 60px
+    width 100%
+    height 120px
+    align-items: baseline
+
+.Header_logo
+    width: 50px
+    height 50px
+
+.Header_Paginas 
+    display: flex
+    list-style-type none
+    flex-direction: row
+    align-items: center;
+
+.Header_Paginas li
+    margin-left: 25px
+
+.MenuDestaque
+    border-bottom: 4px solid red;
