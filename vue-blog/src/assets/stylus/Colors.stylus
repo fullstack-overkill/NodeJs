@@ -1,0 +1,4 @@
+//Cores personalizadas
+
+-VermelhoDestaque = rgba(255, 65, 54, 1)
+-AmareloLinkExterno = rgba(245, 196, 0, 1)

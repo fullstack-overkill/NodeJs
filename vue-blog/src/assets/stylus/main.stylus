@@ -1,1 +1,15 @@
-@import './components.stylus';
+@import '../css/reset.css'; //Reseta os padroes de estilos
+@import './Colors.stylus';
+@import './Utilis.stylus';
+
+@import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
+
+body
+    font-family: 'Work Sans', sans-serif;
+    margin-left 0
+    padding: 0
+    -webkit-font-smoothing antialiased
+    -moz-osx-font-smoothing grayscale
+    overflow hidden;
+    text-align center
+    color #2c3e50

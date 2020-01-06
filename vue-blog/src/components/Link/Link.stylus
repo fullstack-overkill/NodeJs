@@ -1,0 +1,23 @@
+a{
+    text-decoration: none !important;
+    color: inherit;
+    cursor: auto;
+}
+
+a:hover{
+    text-decoration: none !important;
+    color: inherit;
+    cursor: auto;
+}
+
+a:visited {
+    text-decoration: none !important;
+    color: inherit;
+    cursor: auto;
+}
+
+a:visited:hover {
+    text-decoration: none !important;
+    color: inherit;
+    cursor: auto;
+}

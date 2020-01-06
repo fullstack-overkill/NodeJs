@@ -1,2 +1,0 @@
-/* Aqui se registra o localização dos .stylus somente dos componentes*/
-@import '../../components/Header/Header.stylus';
