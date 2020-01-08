@@ -1,12 +1,14 @@
 <template>
   <div class="container">
     <header class="Header_Principal row container">
-      <div class="col-sm-2">
+      <div class="col-sm-1">
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-2">
         <img class="Header_logo" :src="LogoJavaSript" alt="Logo java script" />
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-1">
+      </div>
+      <div class="col-sm-6">
         <ul class="Header_Paginas">
           <LinkRota rota="/">
             <li :class="PaginaDestaque(1)" v-on:click="MudaPagina(1)">Home</li>
@@ -22,7 +24,7 @@
           </LinkRota>
         </ul>
       </div>
-      <div class="col-1">
+      <div class="col-2">
         <div class="Heade_icons">
           <a
             class="Link_destaque_external"
