@@ -2,7 +2,7 @@
   <div id="app">
     <div class="columns caixa">
       <div class="column is-2 caixa">
-        <div class="LeftBar"></div>
+        <LeftBar/>
       </div>
       <div class="column is-10 caixa">
         <BarraSuperior/>
@@ -15,11 +15,13 @@
 </template>
 <script>
 import BarraSuperior from '@/components/BarraSuperior/BarraSuperior.vue'
+import LeftBar from '@/components/LeftBar/LeftBar.vue'
 
 export default {
 
   components:{
     BarraSuperior,
+    LeftBar,
   }
 
 };
