@@ -10,23 +10,23 @@
         <div class="column is-12">
           <button class="button is-rounded ButonsTransparendRonded">Update Profile</button>
         </div>
-        <div :class="PaginaSelecionada(1)">
+        <div :class="PaginaSelecionada(1)" @click="trocaMenu(1)">
           <span class="fas fa-sign-out-alt LeftBarIco"></span>
           <div class="Left-Buton-text">DASHBORD</div>
         </div>
-        <div :class="PaginaSelecionada(2)">
+        <div :class="PaginaSelecionada(2)" @click="trocaMenu(2)">
           <span class="fas fa-sign-out-alt LeftBarIco"></span>
           <div class="Left-Buton-text">DASHBORD</div>
         </div>
-        <div :class="PaginaSelecionada(3)">
+        <div :class="PaginaSelecionada(3)" @click="trocaMenu(3)">
           <span class="fas fa-sign-out-alt LeftBarIco"></span>
           <div class="Left-Buton-text">DASHBORD</div>
         </div>
-        <div :class="PaginaSelecionada(4)">
+        <div :class="PaginaSelecionada(4)" @click="trocaMenu(4)">
           <span class="fas fa-sign-out-alt LeftBarIco"></span>
           <div class="Left-Buton-text">DASHBORD</div>
         </div>
-        <div :class="PaginaSelecionada(5)">
+        <div :class="PaginaSelecionada(5)" @click="trocaMenu(5)">
           <span class="fas fa-sign-out-alt LeftBarIco"></span>
           <div class="Left-Buton-text">DASHBORD</div>
         </div>
@@ -46,12 +46,15 @@ export default {
     };
   },
   methods: {
-      PaginaSelecionada(PaginaConsultando){
+    PaginaSelecionada(PaginaConsultando){
           if(this.mypage == PaginaConsultando){
               return "Left-Buton Left-Buton-Selected"
           }
           return "Left-Buton"
-      }
+      },
+    trocaMenu(NovaPagina){
+      this.mypage = NovaPagina
+    }
   }
 };
 </script>
