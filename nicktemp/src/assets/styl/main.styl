@@ -4,10 +4,23 @@ body
   overflow: hidden
   overflow-x: hidden
   scroll-behavior: smooth
+
+::-webkit-scrollbar
+  width: 0px
   
 .caixa
   padding: 0
   margin: 0
+
+.CaixaAbout
+  width 300px
+  height 300px
+
+.CaixaSeguir
+  width 99%
+  height auto
+  padding 40px
+  margin-top 15px
 
 .ContainerPagina // 
   background-color: #eaeef1
@@ -15,16 +28,66 @@ body
   height: 91%
   position: fixed
   overflow-y scroll
+  padding 30px
+
+.caixaCards
+  align-items: center
+  width 100%
+
+.MiniFoto
+  width 64px
+  hidth 64px
+  border-radius: 100%
+  user-select: none
+
+.DetalhesFeed
+  align-items: baseline
+  display block
+  padding-top: 12 px
+  align-items: baseline
 
 .home //pading do conteiner de conteudo
   padding: 25px
 
+.AboutAlingt
+  display flex
+  flex-direction row
+
+/* Helpers */
+.margin-15px
+  margin-left 15px
+
+.margin-25px
+  margin-left 25px
+
+.padding-20px
+  padding 20px
+
+.padding-40px
+  padding 40px
+  
+
+
+.alingt
+  margin-left 3vw
+
+.CirculoVerde
+  width: 50px;
+  height: 100px;
+  border-radius: 50%;
+  background-color red
+
+/* Estilos personalizados */
 .Titulo
   padding: 0px
   margin-top:0px
   color: Branco 
   font-size: 15px
   font-weight: 700
+
+.TituloDestacado
+  font-size 25px
+  font-weight 100
 
 .SubTitulo
   padding: 0px
@@ -33,15 +96,14 @@ body
   font-size: 14px
   font-weight: 500
 
-.ButonsTransparendRonded
+.ButonsTransparendRonded, .ButonsTransparendRonded:hover
   width: auto
   background-color: transparent
   border: 1px solid #2480ca 
   color: Branco
-  opacity 0.9
+  opacity 1
   font-size: 13px
   font-weight: 500
 
-
-::-webkit-scrollbar
-  width: 0px
+.Space
+  margin-left 15px
