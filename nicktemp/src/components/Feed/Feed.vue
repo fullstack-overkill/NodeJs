@@ -1,11 +1,11 @@
 <template>
-  <div class="box columns">
-    <div class="column is-1">
+  <div class="box columns FeedCaixa">
+    <div class="column is-2">
       <img class="MiniFoto" :src="ImagemUser" alt="image" />
     </div>
-    <div class="column is-7">
-      <div class="has-text-left DetalhesFeed has-text-info">Capt. Prakash</div>
-      <div class=""> is now following you</div>
+    <div class="column is-6 ddddddd">
+      <div class="dasdasdasd as-text-left DetalhesFeed has-text-info">Capt. Prakash</div>
+      <span class="dasdasdasd"> now following you</span>
     </div>
     <div class="column is-4">
         <button class="button is-info is-rounded BotoesSeguir">Follow</button>

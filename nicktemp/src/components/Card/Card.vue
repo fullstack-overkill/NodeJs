@@ -16,7 +16,17 @@
         Phasellus nec iaculis mauris.
         <br />
         <hr class="navbar-divider" />
-        <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+        <div class="columns">
+          <div class="column is-6">
+            Followers
+            <br />
+            <div class="has-text-link is-size-2">112</div>
+          </div>
+          <div class="column is-6">
+            <br />
+            <button class="button is-rounded">Rounded</button>
+          </div>
+        </div>
       </div>
     </div>
   </div>

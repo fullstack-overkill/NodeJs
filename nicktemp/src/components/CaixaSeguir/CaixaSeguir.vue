@@ -2,9 +2,15 @@
   <div class="box CaixaSeguir">
     <div class="columns">
       <div class="column is-3">
-        <img class="UserImagem" :src="ImagemUser" alt="Image" />
-        <button class="button is-info is-rounded BotoesSeguir">Follow</button>
-        <button class="button is-success is-rounded BotoesSeguir margin-15px">message</button>
+        <div class="columns flex-directions-colum">
+          <div class="column is-12">
+            <img class="UserImagem" :src="ImagemUser" alt="Image" />
+          </div>
+          <div class="column is-12">
+            <button class="button is-info is-rounded BotoesSeguir">Follow</button>
+            <button class="button is-success is-rounded BotoesSeguir margin-15px">message</button>
+          </div>
+        </div>
       </div>
       <div class="column is-9">
         <div class="TituloDestacado has-text-grey-darker has-text-left">Sanjay Sharma</div>
